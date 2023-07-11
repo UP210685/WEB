@@ -1,0 +1,137 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="C97FC72C-655E-71B9-3888-770ED694FE1E" name="CUSTOMER">
+<createdBy>100038751</createdBy>
+<createdTime>2023-07-11 02:09:47 UTC</createdTime>
+<ownerDesignName>FastFoodFEr</ownerDesignName>
+<engineerTo>
+<item key="F6478A01-248D-FF92-BE8D-ABEAB0D12C07" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="ID" id="67B88442-A965-1B9C-1579-95A3C070577B">
+<createdBy>100038751</createdBy>
+<createdTime>2023-07-11 02:10:00 UTC</createdTime>
+<ownerDesignName>FastFoodFEr</ownerDesignName>
+<engineerTo>
+<item key="F6478A01-248D-FF92-BE8D-ABEAB0D12C07" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>5</dataTypePrecision>
+<ownDataTypeParameters>,5,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="FIRST_NAME" id="02586F01-02CB-6494-21C3-D1F006298E09">
+<createdBy>100038751</createdBy>
+<createdTime>2023-07-11 02:11:04 UTC</createdTime>
+<ownerDesignName>FastFoodFEr</ownerDesignName>
+<engineerTo>
+<item key="F6478A01-248D-FF92-BE8D-ABEAB0D12C07" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>25</dataTypeSize>
+<ownDataTypeParameters>25,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="LAST_NAME" id="1836C57E-9C99-BDE4-CC5C-B1711D8DBE78">
+<createdBy>100038751</createdBy>
+<createdTime>2023-07-11 02:11:23 UTC</createdTime>
+<ownerDesignName>FastFoodFEr</ownerDesignName>
+<engineerTo>
+<item key="F6478A01-248D-FF92-BE8D-ABEAB0D12C07" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>35</dataTypeSize>
+<ownDataTypeParameters>35,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="ADDRESS" id="FCC4D408-CBFD-78F0-EF26-6461874EE752">
+<createdBy>100038751</createdBy>
+<createdTime>2023-07-11 02:11:38 UTC</createdTime>
+<ownerDesignName>FastFoodFEr</ownerDesignName>
+<engineerTo>
+<item key="F6478A01-248D-FF92-BE8D-ABEAB0D12C07" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50</dataTypeSize>
+<ownDataTypeParameters>50,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="CITY" id="AF1A79E7-E6A6-5C70-9853-2B074762E0DC">
+<createdBy>100038751</createdBy>
+<createdTime>2023-07-11 02:12:00 UTC</createdTime>
+<ownerDesignName>FastFoodFEr</ownerDesignName>
+<engineerTo>
+<item key="F6478A01-248D-FF92-BE8D-ABEAB0D12C07" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>30</dataTypeSize>
+<ownDataTypeParameters>30,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="STATE" id="9D09A4B0-1BEF-77B8-9C0F-87172AA6D46E">
+<createdBy>100038751</createdBy>
+<createdTime>2023-07-11 02:13:06 UTC</createdTime>
+<ownerDesignName>FastFoodFEr</ownerDesignName>
+<engineerTo>
+<item key="F6478A01-248D-FF92-BE8D-ABEAB0D12C07" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>20</dataTypeSize>
+<ownDataTypeParameters>20,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="ZIP" id="11033ED8-F9AD-120F-1BA8-AFBB8063D986">
+<createdBy>100038751</createdBy>
+<createdTime>2023-07-11 02:14:19 UTC</createdTime>
+<ownerDesignName>FastFoodFEr</ownerDesignName>
+<engineerTo>
+<item key="F6478A01-248D-FF92-BE8D-ABEAB0D12C07" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>10</dataTypePrecision>
+<ownDataTypeParameters>,10,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="PHONE_NUMBER" id="B86D5B52-A708-3059-5EED-5C95E0A424AD">
+<createdBy>100038751</createdBy>
+<createdTime>2023-07-11 02:15:16 UTC</createdTime>
+<ownerDesignName>FastFoodFEr</ownerDesignName>
+<engineerTo>
+<item key="F6478A01-248D-FF92-BE8D-ABEAB0D12C07" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>10</dataTypePrecision>
+<ownDataTypeParameters>,10,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="DD7F09C8-5FA7-E052-0DF7-44B856E89F0F" name="CUSTOMER PK">
+<createdBy>100038751</createdBy>
+<createdTime>2023-07-11 02:11:02 UTC</createdTime>
+<ownerDesignName>FastFoodFEr</ownerDesignName>
+<engineerTo>
+<item key="F6478A01-248D-FF92-BE8D-ABEAB0D12C07" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>67B88442-A965-1B9C-1579-95A3C070577B</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

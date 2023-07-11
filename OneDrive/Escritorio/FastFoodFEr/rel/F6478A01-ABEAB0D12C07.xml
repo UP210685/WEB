@@ -1,0 +1,8 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<relationalModel class="oracle.dbtools.crest.model.design.relational.RelationalDesign" name="Relational_1" id="F6478A01-248D-FF92-BE8D-ABEAB0D12C07" mainViewID="4ADF6A9A-9ADC-99D5-E584-6890AB22FEEF">
+<createdBy>100038751</createdBy>
+<createdTime>2023-07-11 01:43:20 UTC</createdTime>
+<ownerDesignName>FastFoodFEr</ownerDesignName>
+<shouldBeOpen>false</shouldBeOpen>
+<selectedRDBMSSite>32076570-2523-435C-2E92-BF29817DFF70</selectedRDBMSSite>
+</relationalModel>
