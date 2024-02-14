@@ -1,8 +1,0 @@
-<?xml version = '1.0' encoding = 'UTF-8'?>
-<OSDM_Design class="oracle.dbtools.crest.model.design.Design" name="noseDtaModeler}" id="06DEBF2F-3A38-4DEF-7F3D-93F09D69EB96" version="3.5">
-<createdBy>100038751</createdBy>
-<createdTime>2023-07-13 19:30:27 UTC</createdTime>
-<ownerDesignName>noseDtaModeler}</ownerDesignName>
-<capitalNames>false</capitalNames>
-<designId>06DEBF2F-3A38-4DEF-7F3D-93F09D69EB96</designId>
-</OSDM_Design>

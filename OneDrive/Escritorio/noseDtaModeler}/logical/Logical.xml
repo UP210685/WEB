@@ -1,7 +1,0 @@
-<?xml version = '1.0' encoding = 'UTF-8'?>
-<LogicalDesign class="oracle.dbtools.crest.model.design.logical.LogicalDesign" name="Logical" id="9E992045-CFE8-E86B-3CEB-06A4504514AD" mainViewID="C295A412-9411-1F10-9E03-3A5C197E0C8D">
-<createdBy>100038751</createdBy>
-<createdTime>2023-07-13 19:30:27 UTC</createdTime>
-<ownerDesignName>noseDtaModeler}</ownerDesignName>
-<shouldBeOpen>false</shouldBeOpen>
-</LogicalDesign>
